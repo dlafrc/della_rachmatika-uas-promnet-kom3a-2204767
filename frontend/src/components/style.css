@@ -1,0 +1,382 @@
+/* Navbar Styling */
+.navbar {
+    background-color: #5d5499;
+}
+.navbar-brand {
+    font-size: 25px;
+    color:#ffffff;
+    transition: all 0.3s ease;
+}
+.navbar-brand:hover{
+    color: #410763;
+    transition: all 0.3s ease;
+}
+/* Footer Styling */
+.footer {
+    width: 100%;
+    background-color:  #756AB6;
+}
+.footer-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-link {
+    color: #FFD700;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer-link:Hover {
+    color: #4f205b;
+    text-decoration: underline;
+    transition: all 0.3s ease;
+}
+
+/* Override default Bootstrap styles for button colors */
+.custom-info-button {
+    background-color: #AC87C5; /* Custom color for the info button */
+  }
+  
+  .custom-warning-button {
+    background-color: #AC87C5; /* Custom color for the warning button */
+  }
+  
+  .custom-danger-button {
+    background-color: #AC87C5; /* Custom color for the danger button */
+  }
+
+.custom-info-button,
+.custom-warning-button,
+.custom-danger-button {
+  color: #ffffff; /* Text color */
+  border: none; /* Remove default button border */
+}
+
+.custom-info-button:hover,
+.custom-info-button:focus,
+.custom-info-button:active {
+  background-color: #756AB6; /* Darker color for info button on hover */
+}
+
+.custom-warning-button:hover,
+.custom-warning-button:focus,
+.custom-warning-button:active {
+  background-color: #756AB6; /* Darker color for warning button on hover */
+}
+
+.custom-danger-button:hover,
+.custom-danger-button:focus,
+.custom-danger-button:active {
+  background-color: #756AB6; /* Darker color for danger button on hover */
+}
+
+/* style.css */
+
+/* Override default Bootstrap styles for table background color */
+.custom-table {
+    background-color: #756AB6; /* Custom color for table background */
+  }
+  
+  /* Override default Bootstrap styles for table header background color */
+  .custom-table thead th {
+    background-color: #756AB6; /* Custom color for table header background */
+    color: #fff; /* Text color for table header */
+  }
+  
+/* style.css */
+
+/* Center text in the table header */
+.custom-table thead th {
+    text-align: center;
+  }
+  
+  /* Optionally, you can also vertically center the text */
+  .custom-table thead th {
+    vertical-align: middle;
+  }
+
+  /* style.css */
+
+/* Center text in the table body, except for the "Nama Barang" column */
+.custom-table tbody td:not(.nama-barang-column) {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+
+
+
+/* Tambahkan aturan warna sesuai keinginan Anda */
+/* Tambahkan aturan margin untuk "Nama Barang" dan "Jumlah" */
+.custom-form-label {
+    color: #000000;
+    margin-top: 5px; /* Menambahkan margin ke bawah */
+  }
+  
+  /* Gaya tambahan untuk tombol decrement/increment */
+  .d-flex > button {
+    margin-right: 5px; /* Menambahkan margin ke kanan */
+  }
+
+  .custom-card {
+    background-color: #ecdcf7;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: auto; /* Tinggi akan disesuaikan dengan kontennya */
+  }
+  
+  .custom-form-label {
+    color: #090808;
+  }
+  
+  .custom-alert {
+    background-color: #FFE5E5;
+    border-color: #d9534f;
+    color: #d9534f;
+    border-radius: 5px;
+  }
+  
+  .custom-button {
+    background-color: #AC87C5;
+    border-color: #AC87C5;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #756AB6;
+  }
+  
+  .custom-secondary-button {
+    background-color: #AC87C5;
+    border-color: #ffffff;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-secondary-button:hover {
+    background-color: #eabbba;
+    color: #fff;
+  }
+  
+  .custom-modal-header {
+    background-color: #756AB6;
+    color: #fff;
+    border-bottom: 1px solid #AC87C5;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .custom-modal-body {
+    background-color: #E0AED0;
+    color: #ffffff;
+    border-bottom: 1px solid #AC87C5;
+    border-top: 1px solid #AC87C5;
+  }
+  
+  .custom-modal-footer {
+    background-color: #FFE5E5;
+    border-top: 1px solid #AC87C5;
+    border-radius: 0 0 5px 5px;
+  }
+  
+/* Tambahkan aturan untuk tombol selama efek slide */
+.custom-button,
+.custom-secondary-button,
+.custom-info-button,
+.custom-warning-button,
+.custom-danger-button {
+  transition: background-color 0.3s ease;
+  border: none; /* Tambahkan ini untuk menghapus border pada tombol */
+}
+
+.custom-button:hover,
+.custom-secondary-button:hover,
+.custom-info-button:hover,
+.custom-warning-button:hover,
+.custom-danger-button:hover {
+  background-color: #462d57; /* Ganti dengan warna yang diinginkan selama efek slide */
+}
+
+/* Tambahkan aturan CSS untuk tampilan view inventory */
+.card-view-inventory {
+    width: 20rem;
+    background-color: #ecdcf7; /* Custom color for the card background */
+    border: 1px solid #AC87C5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title-view-inventory {
+    color: #756AB6; /* Custom color for the card title */
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .card-subtitle-view-inventory {
+    color: #AC87C5; /* Custom color for the card subtitle */
+    margin-bottom: 5px;
+  }
+  
+  .card-text-view-inventory {
+    color: #000000; /* Custom color for the card text */
+  }
+  
+  .btn-back-to-inventory {
+    background-color: #AC87C5; /* Custom color for the button */
+    border: none;
+    color: #fff;
+  }
+  
+  .btn-back-to-inventory:hover {
+    background-color: #756AB6; /* Custom color on hover */
+  }
+  
+  /* Tambahkan aturan CSS untuk value-center */
+.value-center {
+    display: block;
+    text-align: center;
+  }
+  
+  /* Tambahkan aturan CSS untuk badge-round */
+.badge-round {
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #AC87C5; /* Sesuaikan dengan warna yang Anda inginkan */
+    color: #ffffff; /* Sesuaikan dengan warna teks yang sesuai */
+    display: inline-block;
+  }
+  
+/* Tambahkan aturan CSS untuk text-center-label */
+.text-center-label {
+    text-align: center;
+  }
+  
+  /* Tambahkan aturan CSS untuk value-box */
+  .value-box {
+    margin-bottom: 15px;
+  }
+  
+  /* Tambahkan aturan CSS untuk value-center dan rounded */
+  .value-center {
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-color: #fff;
+  }
+  
+  
+
+  /* Tambahkan aturan CSS untuk tampilan update item */
+.card-update-inventory {
+    background-color: #ecdcf7; /* Custom color for the card background */
+    border: 1px solid #AC87C5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title-update-inventory {
+    color: #756AB6; /* Custom color for the card title */
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .btn-update-inventory {
+    background-color: #AC87C5; /* Custom color for the update button */
+    border: none;
+    color: #fff;
+  }
+  
+  .btn-update-inventory:hover {
+    background-color: #462d57; /* Custom color on hover */
+  }
+  
+  .btn-back-to-inventory {
+    background-color: #AC87C5;
+    border-color: #ffffff;
+    color: #ffffff;
+  }
+  
+  .btn-back-to-inventory:hover {
+    background-color: #462d57;
+    border-color: #ffffff;
+    color: #fff;
+  }
+  
+  .modal-header-update-inventory {
+    background-color: #756AB6; /* Custom color for the modal header */
+    color: #fff;
+  }
+  
+  .modal-body-update-inventory {
+    background-color: #E0AED0; /* Custom color for the modal body */
+    color: #000;
+  }
+  
+  .modal-footer-update-inventory {
+    background-color: #FFE5E5;
+  }
+  
+  /* Gaya tambahan untuk tombol decrement/increment */
+  .d-flex > button {
+    margin-right: 5px;
+  }
+  
+  /* style.css */
+
+/* Tambahkan definisi warna ungu untuk tombol reset search */
+.custom-reset-search-button {
+    background-color: #756AB6; /* Warna ungu sesuai keinginan Anda */
+    border-color: #756AB6;
+    color: #fff; /* Warna teks putih agar terlihat kontras */
+  }
+  
+  /* Tambahkan definisi warna ungu untuk tombol create item */
+  .custom-create-item-button {
+    background-color: #756AB6; /* Warna ungu sesuai keinginan Anda */
+    border-color: #756AB6;
+    color: #fff; /* Warna teks putih agar terlihat kontras */
+  }
+
+  /* style.css */
+
+/* Tombol reset search */
+.custom-reset-search-button {
+    background-color: #756AB6;
+    border-color: #756AB6;
+    color: #fff;
+    transition: background-color 0.3s ease; /* Animasi transisi warna latar belakang */
+  }
+  
+  .custom-reset-search-button:hover {
+    background-color: #625094; /* Warna ungu tua saat tombol dihover */
+  }
+  
+  /* Tombol create item */
+  .custom-create-item-button {
+    background-color: #756AB6;
+    border-color: #756AB6;
+    color: #fff;
+    transition: background-color 0.3s ease; /* Animasi transisi warna latar belakang */
+  }
+  
+  .custom-create-item-button:hover {
+    background-color: #625094; /* Warna ungu tua saat tombol dihover */
+  }
+
+  .custom-reset-search-button,
+.custom-create-item-button {
+  border: none;
+}
+
+.custom-search-input {
+    border-radius: 15px;
+    border-color: #ffffff; /* Sesuaikan nilai sesuai keinginan Anda */
+  }
+  
